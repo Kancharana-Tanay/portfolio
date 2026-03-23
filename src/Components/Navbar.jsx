@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className='top-0 left-0 h-28 z-100 w-full fixed bg-linear-to-b from-black via-70% via-black to-transparent'>
         <div className="flex justify-between items-center px-8 md:px-16">
             <a className="logo text-white flex items-center" href='#Hero'>
-                <img className=' max-h-20 max-w-xs pr-2' src="src\assets\logo1.png" alt="logo.png" />
+                <img className=' max-h-20 max-w-xs pr-2' src={logo} alt="logo.png" />
                 <h1 className='pl-2 border-l-2 border-amber-50'>Kancharana <br/> Tanay</h1>
             </a>
             <div className="hidden sm:flex justify-between gap-10 items-center">
