@@ -2,6 +2,8 @@ import React, { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import profilePic from "../assets/profile-pic.png"
+
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 const About = () => {
@@ -108,7 +110,7 @@ const About = () => {
           className="flex-shrink-0 w-64 h-64 md:w-80 md:h-80 rounded-2xl overflow-hidden border-2 border-purple-500/30 shadow-2xl shadow-purple-500/20"
         >
           <img
-            src="src/assets/profile-pic.png"
+            src={profilePic}
             alt="Kancharana Tanay"
             className="w-full h-full object-cover"
           />

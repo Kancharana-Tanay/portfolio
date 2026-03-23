@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import profilePic from "../assets/profile-pic.png"
 
 const Hero = () => {
     const [interactive, setInteractive] = useState(false)
@@ -42,7 +43,7 @@ const Hero = () => {
 
             <div className="flex justify-center md:justify-end md:pr-20">
                 <img
-                    src="src/assets/profile-pic.png"
+                    src={profilePic}
                     className="w-40 md:w-80 rounded-full shadow-2xl"
                     alt="profile"
                 />
