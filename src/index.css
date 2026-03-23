@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+*{
+    font-family:'Courier New', "Krona One", Courier, monospace;
+    font-weight: normal;
+    scroll-behavior: smooth;
+    scroll-margin-top: 30px;
+}
+
+@theme{
+    --color-primary: #020617;
+}
