@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import logo from "../assets/logo1.png"
 
 const Navbar = () => {
     const [toggle, setToggle] = useState(false)
