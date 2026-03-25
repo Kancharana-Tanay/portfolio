@@ -12,10 +12,10 @@ const Hero = () => {
         className={`snap-start absolute inset-0 w-full h-full ${interactive? 'pointer-events-none' : 'pointer-events-auto'}`}
         ></iframe>
 
-        <div className="relative z-10 flex flex-col md:flex-row justify-center md:justify-between items-center h-full  px-6 md:px-20 gap-10 pointer-events-none">
+        <div className="relative z-10 flex flex-col-reverse md:flex-row justify-center md:justify-between items-center h-full  px-6 md:px-20 gap-10 pointer-events-none">
             <div className="text-center md:text-left max-w-xl">
                 <h1 className="text-white text-5xl md:text-7xl font-bold leading-tight">
-                    Kancharana <br /> Tanay
+                    Kancharana <br /> <span className='text-purple-600'>Tanay</span>
                 </h1>
 
                 <p className="text-gray-300 mt-4 text-base md:text-lg">

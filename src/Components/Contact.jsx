@@ -110,8 +110,38 @@ const Contact = () => {
                 <i className="fa-solid fa-file-pdf"></i> Download my CV
                 </a>
             </div>
-            <div ref={formContainerRef} className="mt-16 max-w-xl mx-auto bg-white/5 backdrop-blur-lg p-8 rounded-2xl border border-white/10">
-                <form ref={formRef} onSubmit={sendEmail} className="space-y-6">
+            <div ref={formContainerRef} className="flex max-md:flex-col justify-between items-center mt-16 max-w-6xl mx-auto bg-white/5 backdrop-blur-lg p-8 rounded-2xl border border-white/10">
+                <div className="flex flex-col gap-8 flex-wrap md:max-w-[40%] max-md:mb-10 w-full">
+                    <h3>Let's build something amazing together</h3>
+                    <h4>Whether you have a question or just want to say hi, my inbox is always open!</h4>
+                    <div className="flex flex-col gap-8">
+                        <div className="flex gap-5 items-center cursor-pointer max-h-10 text-sm font-medium"
+                            onclick="window.location.href='mailto:yourname@example.com?subject=Hello&body=I%20would%20like%20to%20connect'"
+                        >
+                            <div className="text-gray-400 mb-2 bg-white/10 border border-white/20 rounded-xl p-3">
+                                <i className="text-2xl font-light fa-regular fa-envelope"></i>
+                            </div>
+                            <h1>kancharanatanay@gmail.com</h1>
+                        </div>
+                        
+                        <a className="flex gap-5 items-center cursor-pointer max-h-10 text-sm font-medium"
+                            href="https://github.com/kancharana-Tanay"
+                        >
+                            <div className="text-gray-400 mb-2 bg-white/10 border border-white/20 rounded-xl p-3">
+                                <i className="text-2xl font-light fa-brands fa-github"></i>
+                            </div>
+                            <h1>GitHub</h1>
+                        </a>
+                        <a className="flex gap-5 items-center cursor-pointer max-h-10 text-sm font-medium"
+                            href="https://www.linkedin.com/in/kancharanatanay/">
+                            <div className="text-gray-400 mb-2 bg-white/10 border border-white/20 rounded-xl p-3">
+                                <i className="text-2xl font-light fa-brands fa-linkedin"></i>
+                            </div>
+                            <h1>Linked In</h1>
+                        </a>    
+                    </div>
+                </div>
+                <form ref={formRef} onSubmit={sendEmail} className="space-y-6 xl:w-xl md:w-md max-md:w-full">
                 <div>
                     <label
                     htmlFor="user_name"

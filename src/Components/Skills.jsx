@@ -126,7 +126,7 @@ const Skills = () => {
         ))}
     </div>
 
-    <div className="mt-16 max-w-5xl mx-auto flex gap-10  bg-white/5 backdrop-blur-lg p-8 rounded-2xl border border-white/10">
+    <div className="mt-16 max-w-5xl mx-auto flex max-md:flex-col gap-10  bg-white/5 backdrop-blur-lg p-8 rounded-2xl border border-white/10">
         <div className="">
             <h2 className="text-3xl md:text-4xl font-bold">Platforms</h2>    
             <p className="text-gray-400 mt-4">See My work</p>
